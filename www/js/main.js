@@ -139,7 +139,7 @@ var mainState = {
         this.bird.alive = false;
 
         //Останавливаем добавление препятствий
-        game.time.elements.remove(this.timer);
+        game.time.events.remove(this.timer);
 
         //Останавливаем все препятствия
         this.pipes.forEach(function (p) {
