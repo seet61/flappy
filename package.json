@@ -4,10 +4,16 @@
     "displayName": "flappy",
     "cordova": {
         "platforms": [
-            "android"
-        ]
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        }
     },
     "dependencies": {
-        "cordova-android": "~6.2.3"
+        "cordova-android": "~6.2.3",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-whitelist": "^1.2.2"
     }
 }

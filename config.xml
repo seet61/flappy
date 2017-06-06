@@ -9,5 +9,12 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="phonegap-version" value="cli-6.1.0" />
     <engine name="android" spec="~6.2.3" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.2.2" />
 </widget>
